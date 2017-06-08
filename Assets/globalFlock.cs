@@ -28,6 +28,7 @@ public class globalFlock : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
+        // Every once in a while send the flock to a new location.
         if (Random.Range(0, 10000) < 50)
         {
             goalPos = new Vector3(Random.Range(-tankSize, tankSize), Random.Range(-tankSize, tankSize), Random.Range(-tankSize, tankSize));

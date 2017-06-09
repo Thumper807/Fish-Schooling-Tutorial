@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class flock : MonoBehaviour {
-    // Dumb comment to test github connection.
+ 
     public float speed = 0.5f;
     float rotationSpeed = 4.0f;
     float minSpeed = 0.2f;
